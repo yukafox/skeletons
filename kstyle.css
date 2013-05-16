@@ -1,0 +1,12 @@
+body            { margin: 0;  padding: 0; background-color: #f7f6f3; height: 100%; }
+header          { height: 165px; background: #624432; color: wheat; padding: 15px; }
+footer          { background: #dadada; border-radius: 10px; padding: 15px; height: 74px; margin: 20px; position: relative; display: inline-block; }
+section         {  margin-bottom: 10px; position: relative; }
+
+.wrap           { box-shadow: 0 0 5px 5px lightgrey; background-color: White; height: 100%; width: 90%; margin: auto; }
+
+.info           { background: #f0f0f0; overflow: hidden; border-radius: 10px; padding: 15px; width: 495px; margin: 20px 0 0 25px; }
+.media          { background-color: #E5E3DF; overflow: hidden; position: relative; height: 100%; width: 100%; margin-bottom: 24px; }
+.mediaInfo      { height: 700px; left: 570px; position: absolute; right: 20px; top: 0; z-index: 1; }
+.mediaContent   { background-color: #f3f3f3; color: #5BA8C7; font: italic 18px Georgia; left: 0; padding: 15px;
+    position: absolute; right: 0; border-radius: 10px; }

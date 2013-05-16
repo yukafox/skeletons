@@ -1,0 +1,7 @@
+/* Common style: description of main elements style*/
+body    { width: 100%; margin: 0 auto; overflow: auto; background-color: #fdef4d;  }
+aside   { background-color: #f7f8f8 !important; width: 38%;  float: left; margin: 5px; padding: 5px; border-radius: 10px; }
+header	{ height: 40px; background: #2e2e2e !important; width: 100%; position: fixed; display: inline; z-index: 1; }
+section { background-color: #fdfdfd; float: right; width: 55%; margin: 5px; padding: 5px; border-radius: 10px;}
+
+.main   { position: relative; width: 60%; top: 40px; margin: 0 auto; }

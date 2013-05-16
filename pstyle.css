@@ -1,0 +1,21 @@
+/* Common style
+description of main elements style*/
+body            { width:100%; margin:0 auto; overflow: auto; }
+aside           { background-color: rgb(205, 205, 205); position: absolute; top: 87px;
+    bottom: 0; padding: 10px; }
+aside>a         { color: #000000; text-decoration: none; }
+section         { position: absolute; bottom: 0; overflow: auto; }
+
+/*Header
+*/
+.mainNav        { background-color: rgb(45, 45, 45); line-height: 27px; padding: 5px; position: fixed; width: 100%; z-index: 1; }
+.mainNav>a      { color: white; text-decoration: none; }
+.googlemenu     { background-color: #c5c5c5; height: 30px; padding: 10px; position: fixed; width: 100%; z-index: 1; top: 37px; }
+
+.chat           { width: 230px; right: 0; position: fixed; }
+.toolbar        { width: 100px; padding: 20px; position: fixed; }
+
+.news           { position: absolute; background-color: #fdfdfd; width: 564px; display: inline-block; left: 140px; top: 87px;
+    padding: 10px; border-right: 1px solid #cccccc; }
+.userData       { position: absolute; background-color: #fdfdfd; width: 256px; display: inline-block; right: 342px; top: 87px;
+    padding: 10px; }

@@ -1,0 +1,9 @@
+body { margin: 0; padding: 0; }
+header { width: 100%; background-color: #f4f4f4; border-bottom: 1px solid #e4e4e4; height: 45px;}
+
+img { width: 180px; height: 200px; }
+
+.container_16 { position: relative; }
+
+.grid_4, .grid_6, .grid_12, .grid_16 { margin-top: 10px; margin-bottom: 10px; background-color: #f4f4f4; border-radius: 5px;
+    text-align: center; padding: 5px 0; }

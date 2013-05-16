@@ -1,0 +1,17 @@
+/* Common style: description of main elements style*/
+body            { width:100%; margin:0 auto; overflow: hidden; }
+aside           { background-color: #fdfdfd; width: 180px; position: absolute; top: 108px;
+    bottom: 0; }
+aside>a         { color: #000000; text-decoration: none; }
+footer          { position: relative; background-color: #fdfdfd; padding: 15px; }
+section         { position: absolute; left: 180px; top: 108px; right: 0; bottom: 0; overflow: auto; }
+
+/*Header*/
+.mainNav        { background-color: #2d2d2d; line-height: 27px; height: 27px; overflow: hidden; }
+.mainNav>a      { color: white; text-decoration: none; }
+.mailNav        { background-color: #fdfdfd; }
+.googlemenu     { background-color: #f0f0f0; height: 60px; }
+
+/*Table style*/
+table           { border-collapse: collapse; width:100%; }
+td, th          { padding: 6px; border: 1px solid #000; }
