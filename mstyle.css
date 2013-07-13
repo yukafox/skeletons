@@ -1,0 +1,6 @@
+img  { animation-duration: 3s; animation-name: slide; }
+body { background: url("music-clipart41.jpg") fixed no-repeat center 0 /57%; }
+
+@keyframes slide {
+
+}
