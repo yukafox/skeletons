@@ -1,6 +1,18 @@
-img  { animation-duration: 3s; animation-name: slide; }
-body { background: url("music-clipart41.jpg") fixed no-repeat center 0 /57%; }
+body  { overflow: hidden; }
+#bg   { position: absolute; animation-name: spin; animation-delay: 7s; animation-duration: 10s;  }
+#logo { transform: translate(10%, 105%); animation: slide 6s;   }
+.wrap { margin-top: 50px; width: 450px; animation-delay: 7s; animation-duration: 10s;  animation-name: wheel; }
 
 @keyframes slide {
+    0%   { margin-top: -100%; margin-left: 200%; }
+    40%  { margin-top: -100%; }
+    100% { margin: 0; }
+}
 
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes wheel {
+    100% { transform: translateX(1400px); }
 }
